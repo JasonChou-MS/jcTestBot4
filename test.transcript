@@ -1,0 +1,160 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "8d4dfb20-8e86-11e8-8c76-bf9b5e784a2f",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1e669a90-8e87-11e8-8c76-bf9b5e784a2f|livechat"
+    },
+    "id": "1e7ae5e0-8e87-11e8-8f9d-e1071929f861",
+    "localTimestamp": "2018-07-23T22:46:01+08:00",
+    "recipient": {
+      "id": "8d4dfb20-8e86-11e8-8c76-bf9b5e784a2f",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-07-23T14:46:01.789Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:58587"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "default-user",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1e669a90-8e87-11e8-8c76-bf9b5e784a2f|livechat"
+    },
+    "id": "1e7b5b10-8e87-11e8-8f9d-e1071929f861",
+    "localTimestamp": "2018-07-23T22:46:01+08:00",
+    "recipient": {
+      "id": "8d4dfb20-8e86-11e8-8c76-bf9b5e784a2f",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-07-23T14:46:01.793Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:58587"
+  },
+  {
+    "type": "message",
+    "text": "Hi",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-07-23T14:46:15.695Z",
+    "channelData": {
+      "clientActivityId": "1532357161657.941722535686051.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1e669a90-8e87-11e8-8c76-bf9b5e784a2f|livechat"
+    },
+    "id": "26c4a1f0-8e87-11e8-8f9d-e1071929f861",
+    "localTimestamp": "2018-07-23T22:46:15+08:00",
+    "recipient": {
+      "id": "8d4dfb20-8e86-11e8-8c76-bf9b5e784a2f",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:58587"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:58587",
+    "channelId": "emulator",
+    "from": {
+      "id": "8d4dfb20-8e86-11e8-8c76-bf9b5e784a2f",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "1e669a90-8e87-11e8-8c76-bf9b5e784a2f|livechat"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "text": "Turn 1: You sent 'Hi'!",
+    "inputHint": "acceptingInput",
+    "replyToId": "26c4a1f0-8e87-11e8-8f9d-e1071929f861",
+    "id": "26f61231-8e87-11e8-8f9d-e1071929f861",
+    "localTimestamp": "2018-07-23T22:46:16+08:00",
+    "timestamp": "2018-07-23T14:46:16.019Z"
+  },
+  {
+    "type": "message",
+    "text": "Hello",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-07-23T14:46:29.213Z",
+    "channelData": {
+      "clientActivityId": "1532357161657.941722535686051.2"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1e669a90-8e87-11e8-8c76-bf9b5e784a2f|livechat"
+    },
+    "id": "2ed350d0-8e87-11e8-8f9d-e1071929f861",
+    "localTimestamp": "2018-07-23T22:46:29+08:00",
+    "recipient": {
+      "id": "8d4dfb20-8e86-11e8-8c76-bf9b5e784a2f",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:58587"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:58587",
+    "channelId": "emulator",
+    "from": {
+      "id": "8d4dfb20-8e86-11e8-8c76-bf9b5e784a2f",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "1e669a90-8e87-11e8-8c76-bf9b5e784a2f|livechat"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "text": "Turn 2: You sent 'Hello'!",
+    "inputHint": "acceptingInput",
+    "replyToId": "2ed350d0-8e87-11e8-8f9d-e1071929f861",
+    "id": "2ee50411-8e87-11e8-8f9d-e1071929f861",
+    "localTimestamp": "2018-07-23T22:46:29+08:00",
+    "timestamp": "2018-07-23T14:46:29.329Z"
+  }
+]

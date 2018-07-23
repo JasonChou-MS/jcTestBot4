@@ -1,0 +1,24 @@
+{
+    "name": "jcTestBot4",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "",
+            "id": "8d4dfb20-8e86-11e8-8c76-bf9b5e784a2f",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "http://localhost:52403/api/messages",
+            "name": "http://localhost:52403/api/messages"
+        },
+        {
+            "id": "562bb230-8e8c-11e8-8f9d-e1071929f861",
+            "type": "luis",
+            "name": "AXA Emma",
+            "version": "0.1",
+            "appId": "3b8b2b77-8dfe-4ebe-af0b-f374a5719859",
+            "authoringKey": "ed550f566e714a34a70ee658a0edd6f7",
+            "subscriptionKey": "ed550f566e714a34a70ee658a0edd6f7"
+        }
+    ]
+}
